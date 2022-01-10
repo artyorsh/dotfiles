@@ -1,0 +1,15 @@
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Artur
+	username = artyorsh
+        email = artyorsh@users.noreply.github.com
+[alias]
+	conflicts = diff --name-only --diff-filter=U
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
