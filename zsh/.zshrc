@@ -18,6 +18,10 @@ export PATH=$PATH:/usr/local/opt/php@8.0/sbin
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+export HISTCONTROL=ignoreboth
+export HISTSIZE=5000
+export HISTIGNORE="clear:bg:fg:cd:cd -:cd ..:exit:date:w:* --help:ls:l:ll:lll"
+
 # https://github.com/nvm-sh/nvm#installing-and-updating
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
