@@ -1,0 +1,22 @@
+[
+  {
+    "key": "cmd+escape",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+escape",
+    "command": "workbench.action.terminal.focus",
+    "when": "terminalProcessSupported && !terminalFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalProcessSupported && terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalProcessSupported && terminalFocus"
+  },
+]

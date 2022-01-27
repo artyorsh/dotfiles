@@ -1,0 +1,42 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.showTabs": false,
+    "window.restoreFullscreen": true,
+    "explorer.decorations.colors": false,
+    "search.smartCase": true,
+    "terminal.integrated.fontSize": 14,
+    "editor.rulers": [
+        120
+    ],
+    "editor.tabSize": 2,
+    "editor.scrollBeyondLastLine": false,
+    "workbench.editor.enablePreview": false,
+    "explorer.openEditors.visible": 0,
+    "editor.columnSelection": false,
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.suggestSmartCommit": false,
+    "editor.suggestSelection": "first",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.tabs.enabled": false,
+    "editor.minimap.maxColumn": 180,
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.colorTheme": "GitHub Light",
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "extensions.ignoreRecommendations": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+}
