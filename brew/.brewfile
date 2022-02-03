@@ -1,0 +1,38 @@
+cask_args appdir: '~/Applications'
+
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
+tap 'buo/cask-upgrade'
+
+brew 'mas'
+
+brew 'gh'
+brew 'nvm'
+brew 'yarn'
+cask 'adoptopenjdk8'
+
+brew 'watchman'
+
+brew 'gpg'
+brew 'coreutils'
+brew 'gnu-sed'
+brew 'pass'
+brew 'pinentry-mac'
+
+cask 'iterm2'
+cask 'google-chrome'
+cask 'visual-studio-code'
+
+brew 'gradle'
+cask 'android-sdk'
+cask 'intel-haxm'
+cask 'android-platform-tools'
+cask 'android-ndk'
+cask 'android-file-transfer'
+cask 'android-studio'
+
+cask 'protonvpn'
+cask 'transmission'
+
+mas 'Xcode', id: 497799835
