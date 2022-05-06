@@ -21,7 +21,6 @@ brew 'pass'
 brew 'pinentry-mac'
 
 cask 'iterm2'
-cask 'google-chrome'
 cask 'visual-studio-code'
 
 brew 'gradle'
@@ -31,8 +30,8 @@ cask 'android-platform-tools'
 cask 'android-ndk'
 cask 'android-file-transfer'
 cask 'android-studio'
-
-cask 'protonvpn'
-cask 'transmission'
-
 mas 'Xcode', id: 497799835
+
+cask 'google-chrome', args: { appdir: '/Applications' }
+cask 'protonvpn', args: { appdir: '/Applications' }
+cask 'transmission', args: { appdir: '/Applications' }
