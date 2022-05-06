@@ -13,6 +13,7 @@ cd $(dirname $browserpass_bin)
 make PREFIX=/usr/local BIN=$browserpass_bin configure
 make PREFIX=/usr/local BIN=$browserpass_bin install
 make PREFIX=/usr/local hosts-chrome-user
+make PREFIX=/usr/local hosts-brave-user
 
 cd $(dirname $browserpass_bin)/..
 
