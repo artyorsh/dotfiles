@@ -4,35 +4,39 @@ tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'buo/cask-upgrade'
-
 brew 'mas'
 
 brew 'gh'
-brew 'nvm'
-brew 'yarn'
-cask 'adoptopenjdk8'
-
-brew 'watchman'
-
 brew 'gpg'
 brew 'coreutils'
 brew 'gnu-sed'
 brew 'pass'
 brew 'pinentry-mac'
 
+cask 'brave-browser'
 cask 'iterm2'
 cask 'visual-studio-code'
 
-brew 'gradle'
-cask 'android-sdk'
-cask 'intel-haxm'
-cask 'android-platform-tools'
-cask 'android-ndk'
-cask 'android-file-transfer'
-cask 'android-studio'
-cask 'brave-browser'
-mas 'Xcode', id: 497799835
+# Shared across machine users
 
 cask 'google-chrome', args: { appdir: '/Applications' }
 cask 'protonvpn', args: { appdir: '/Applications' }
 cask 'transmission', args: { appdir: '/Applications' }
+
+# NodeJS
+
+brew 'nvm'
+brew 'yarn'
+brew 'watchman'
+
+# Mobile
+
+cask 'android-sdk'
+cask 'android-file-transfer'
+cask 'android-ndk'
+cask 'android-platform-tools'
+cask 'android-studio'
+brew 'gradle'
+cask 'intel-haxm'
+cask 'temurin11'
+mas 'Xcode', id: 497799835
