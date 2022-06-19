@@ -12,6 +12,7 @@ brew 'coreutils'
 brew 'gnu-sed'
 brew 'pass'
 brew 'pinentry-mac'
+brew 'wireguard-tools'
 
 cask 'brave-browser'
 cask 'iterm2'
