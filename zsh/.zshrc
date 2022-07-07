@@ -37,6 +37,9 @@ export NVM_DIR="$HOME/.nvm"
 # https://github.com/jorgelbg/pinentry-touchid#installation
 alias pinentry="pinentry-mac"
 
+alias brewb="brew bundle --file=~/.brewfile"
+alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup"
+
 plugins=(
   git
   vi-mode
