@@ -21,6 +21,7 @@ cask 'visual-studio-code'
 
 # Shared across machine users
 
+cask 'maintenance', args: { appdir: '/Applications' }
 cask 'brave-browser', args: { appdir: '/Applications' }
 cask 'transmission', args: { appdir: '/Applications' }
 
