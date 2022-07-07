@@ -14,23 +14,19 @@ brew 'pass'
 brew 'pinentry-mac'
 brew 'wireguard-tools'
 
-cask 'brave-browser'
+cask 'netnewswire'
+cask 'vlc'
 cask 'iterm2'
 cask 'visual-studio-code'
 
 # Shared across machine users
 
-cask 'google-chrome', args: { appdir: '/Applications' }
-cask 'protonvpn', args: { appdir: '/Applications' }
+cask 'brave-browser', args: { appdir: '/Applications' }
 cask 'transmission', args: { appdir: '/Applications' }
-
-# NodeJS
 
 brew 'nvm'
 brew 'yarn'
 brew 'watchman'
-
-# Mobile
 
 cask 'android-sdk'
 cask 'android-file-transfer'
