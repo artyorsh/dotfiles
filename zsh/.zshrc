@@ -16,8 +16,6 @@ export ANDROID_HOME=/usr/local/share/android-sdk
 export ANDROID_NDK_HOME=/usr/local/share/android-ndk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/emulator
 
 export PATH=$PATH:/usr/local/opt/php@8.0/bin
 export PATH=$PATH:/usr/local/opt/php@8.0/sbin
@@ -29,6 +27,8 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=5000
 export HISTIGNORE="clear:bg:fg:cd:cd -:cd ..:exit:date:w:* --help:ls:l:ll:lll"
 
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # https://github.com/nvm-sh/nvm#installing-and-updating
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -37,6 +37,8 @@ export NVM_DIR="$HOME/.nvm"
 # https://github.com/jorgelbg/pinentry-touchid#installation
 alias pinentry="pinentry-mac"
 
+alias wgup="wg-quick up wg0"
+alias wgdown="wg-quick down wg0"
 alias brewb="brew bundle --file=~/.brewfile"
 alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup"
 
