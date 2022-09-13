@@ -1,6 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="sunrise"
+ZSH_THEME="refined"
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+bindkey '^ ' autosuggest-accept
 
 export PATH=$PATH:/usr/local/sbin
 
@@ -45,6 +47,7 @@ alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy && bre
 plugins=(
   git
   vi-mode
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
