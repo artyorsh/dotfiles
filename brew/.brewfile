@@ -23,7 +23,7 @@ cask 'visual-studio-code'
 
 cask 'maintenance', args: { appdir: '/Applications' }
 cask 'brave-browser', args: { appdir: '/Applications' }
-cask 'transmission', args: { appdir: '/Applications' }
+cask 'qbittorrent', args: { appdir: '/Applications' }
 
 brew 'nvm'
 brew 'yarn'
