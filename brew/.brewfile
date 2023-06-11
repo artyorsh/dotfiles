@@ -25,7 +25,6 @@ cask 'maintenance', args: { appdir: '/Applications' }
 cask 'brave-browser', args: { appdir: '/Applications' }
 cask 'qbittorrent', args: { appdir: '/Applications' }
 
-brew 'nvm'
 brew 'yarn'
 brew 'watchman'
 
@@ -35,6 +34,10 @@ cask 'android-ndk'
 cask 'android-platform-tools'
 cask 'android-studio'
 brew 'gradle'
-cask 'intel-haxm'
 cask 'temurin11'
+cask 'minisim'
+
+tap 'jorgelbg/tap'
+brew 'pinentry-touchid'
+
 mas 'Xcode', id: 497799835
