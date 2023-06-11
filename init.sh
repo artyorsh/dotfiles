@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sh ./defaults/init.sh
 sh ./zsh/init.sh
 sh ./gpg/init.sh
 sh ./git/init.sh
