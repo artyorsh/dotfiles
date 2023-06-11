@@ -1,22 +1,13 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "cmd+escape",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "cmd+escape",
+    "key": "alt+f12",
     "command": "workbench.action.terminal.focus",
-    "when": "terminalProcessSupported && !terminalFocus"
+    "when": "terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && !terminalFocus"
   },
   {
-    "key": "cmd+d",
-    "command": "workbench.action.terminal.split",
-    "when": "terminalProcessSupported && terminalFocus"
-  },
-  {
-    "key": "cmd+w",
-    "command": "workbench.action.terminal.kill",
-    "when": "terminalProcessSupported && terminalFocus"
-  },
+    "key": "alt+f12",
+    "command": "-workbench.action.terminal.focus",
+    "when": "terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && !terminalFocus"
+  }
 ]

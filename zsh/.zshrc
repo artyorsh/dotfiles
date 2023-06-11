@@ -14,8 +14,8 @@ export PATH=$PATH:$JAVA_HOME/bin
 export GRADLE_HOME=/usr/local/opt/gradle
 export PATH=$PATH:$GRADLE_HOME/bin
 
-export ANDROID_HOME=/usr/local/share/android-sdk
-export ANDROID_NDK_HOME=/usr/local/share/android-ndk
+export ANDROID_HOME=/opt/homebrew/share/android-sdk
+export ANDROID_NDK_HOME=/opt/homebrew/share/android-ndk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 
