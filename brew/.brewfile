@@ -35,6 +35,7 @@ cask 'android-platform-tools'
 cask 'android-studio'
 brew 'gradle'
 cask 'temurin11'
+brew 'ruby'
 cask 'minisim'
 
 tap 'jorgelbg/tap'
