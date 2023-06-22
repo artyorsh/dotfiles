@@ -3,6 +3,8 @@ current_dir=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 browserpass_version=$(curl --silent "https://api.github.com/repos/browserpass/browserpass-native/releases/latest" | grep '"tag_name":' |  sed -E 's/.*"([^"]+)".*/\1/')
 
+echo "Cloning browserpass-native client for $PASS_DIST arch"
+
 curl -L --silent https://github.com/browserpass/browserpass-native/releases/download/$browserpass_version/browserpass-$PASS_DIST-$browserpass_version.tar.gz | tar xzv - -C $current_dir
 
 # https://github.com/browserpass/browserpass-native#install-manually
@@ -23,6 +25,7 @@ cd $current_dir
 rm -rf $browserpass_dir
 gpg --batch --yes --delete-keys 56C3E775E72B0C8B1C0C1BD0B5DB77409B11B601
 
+mkdir -p $HOME/.password-store
 pass init $PASS_GPG_ID
 pass git init
 pass git remote add origin $PASS_REPO_URL
