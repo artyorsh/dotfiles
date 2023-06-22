@@ -53,6 +53,7 @@ alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy && bre
 plugins=(
   git
   vi-mode
+  zsh-autocomplete
   zsh-autosuggestions
 )
 
