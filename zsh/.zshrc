@@ -11,16 +11,16 @@ export GEM_HOME="$HOME/.gem"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$PATH:$JAVA_HOME/bin
 
-export GRADLE_HOME=/usr/local/opt/gradle
+export GRADLE_HOME=$HOMEBREW_PREFIX/bin/gradle
 export PATH=$PATH:$GRADLE_HOME/bin
 
-export ANDROID_HOME=/opt/homebrew/share/android-sdk
-export ANDROID_NDK_HOME=/opt/homebrew/share/android-ndk
+export ANDROID_HOME=$HOMEBREW_PREFIX/share/android-sdk
+export ANDROID_NDK_HOME=$HOMEBREW_PREFIX/share/android-ndk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 
-export PATH=$PATH:/usr/local/opt/php@8.0/bin
-export PATH=$PATH:/usr/local/opt/php@8.0/sbin
+export PATH=$PATH:$HOMEBREW_PREFIX/opt/php@8.0/bin
+export PATH=$PATH:$HOMEBREW_PREFIX/opt/php@8.0/sbin
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -37,8 +37,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # https://mac.install.guide/ruby/13.html
-if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
-  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+if [ -d "$HOMEBREW_PREFIX/opt/ruby/bin" ]; then
+  export PATH=$HOMEBREW_PREFIX/opt/ruby/bin:$PATH
   export PATH=`gem environment gemdir`/bin:$PATH
 fi
 
