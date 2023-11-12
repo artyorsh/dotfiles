@@ -40,5 +40,8 @@ cask 'minisim'
 tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
 
+tap 'simplydanny/pass-extensions'
+brew 'pass-update'
+
 mas 'Xcode', id: 497799835
 mas 'Ghostery – Privacy Ad Blocker', id: 1436953057
