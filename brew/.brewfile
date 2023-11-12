@@ -12,18 +12,17 @@ brew 'coreutils'
 brew 'gnu-sed'
 brew 'pass'
 brew 'pinentry-mac'
-brew 'wireguard-tools'
 
 cask 'netnewswire'
 cask 'vlc'
-cask 'iterm2'
 cask 'visual-studio-code'
 
 # Shared across machine users
 
 cask 'maintenance', args: { appdir: '/Applications' }
-cask 'brave-browser', args: { appdir: '/Applications' }
+cask 'google-chrome', args: { appdir: '/Applications' }
 cask 'qbittorrent', args: { appdir: '/Applications' }
+cask 'iterm2', args: { appdir: '/Applications' }
 
 brew 'yarn'
 brew 'watchman'
@@ -42,3 +41,4 @@ tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
 
 mas 'Xcode', id: 497799835
+mas 'Ghostery – Privacy Ad Blocker', id: 1436953057

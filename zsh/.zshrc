@@ -14,7 +14,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 export GRADLE_HOME=$HOMEBREW_PREFIX/bin/gradle
 export PATH=$PATH:$GRADLE_HOME/bin
 
-export ANDROID_HOME=$HOMEBREW_PREFIX/share/android-sdk
+export ANDROID_HOME=$HOMEBREW_PREFIX/share/android-sdk/tools/
 export ANDROID_NDK_HOME=$HOMEBREW_PREFIX/share/android-ndk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
@@ -57,3 +57,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
