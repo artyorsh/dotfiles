@@ -13,7 +13,7 @@ The maintenance of the repo is happening mostly when I need to configure a new c
   - https://macos-defaults.com
 
 - App and package management
-  - [Homebrew](https://brew.sh) with [brew-bundle](https://github.com/Homebrew/homebrew-bundle)
+  - [Homebrew](https://brew.sh) with [brew-bundle](https://github.com/Homebrew/homebrew-bundle) and [autoupdate](https://github.com/Homebrew/homebrew-autoupdate)
   - [Installed apps](brew/.brewfile) (Mobile development specifics :upside_down_face:)
   - VSCode with [settings](vscode/settings.json), [extension](vscode/extensions) and [keybindings](vscode/keybindings.json) management
 
