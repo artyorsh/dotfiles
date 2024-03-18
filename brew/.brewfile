@@ -11,7 +11,7 @@ brew 'gh'
 brew 'gpg'
 brew 'coreutils'
 brew 'gnu-sed'
-brew 'pass'
+brew 'bitwarden'
 brew 'pinentry-mac'
 
 cask 'netnewswire'
@@ -22,7 +22,6 @@ cask 'visual-studio-code'
 
 cask 'maintenance', args: { appdir: '/Applications' }
 cask 'google-chrome', args: { appdir: '/Applications' }
-cask 'qbittorrent', args: { appdir: '/Applications' }
 cask 'iterm2', args: { appdir: '/Applications' }
 
 brew 'yarn'
@@ -34,15 +33,12 @@ cask 'android-ndk'
 cask 'android-platform-tools'
 cask 'android-studio'
 brew 'gradle'
-cask 'temurin11'
+cask 'zulu17'
 brew 'ruby'
 cask 'minisim'
 
 tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
-
-tap 'simplydanny/pass-extensions'
-brew 'pass-update'
 
 mas 'Xcode', id: 497799835
 mas 'Ghostery – Privacy Ad Blocker', id: 1436953057
