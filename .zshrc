@@ -50,12 +50,7 @@ alias wgdown="wg-quick down wg0"
 alias brewb="brew bundle --file=~/.brewfile"
 alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup"
 
-plugins=(
-  git
-  vi-mode
-  zsh-autocomplete
-  zsh-autosuggestions
-)
+plugins=(git zsh-vi-mode zsh-autocomplete zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
