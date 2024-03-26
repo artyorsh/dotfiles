@@ -11,7 +11,7 @@ brew 'gh'
 brew 'gpg'
 brew 'coreutils'
 brew 'gnu-sed'
-brew 'bitwarden'
+cask 'bitwarden'
 brew 'pinentry-mac'
 
 cask 'netnewswire'
