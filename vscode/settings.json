@@ -1,67 +1,65 @@
 {
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "GitHub Light",
-    "workbench.editor.showIcons": false,
-    "workbench.editor.showTabs": false,
-    "workbench.statusBar.visible": false,
-    "workbench.tips.enabled": false,
-    "workbench.editor.limit.enabled": true,
-    "workbench.enableExperiments": false,
-    "workbench.settings.editor": "json",
-    "editor.dragAndDrop": false,
-    "editor.dropIntoEditor.enabled": false,
-    "editor.fontFamily": "Comic Mono",
-    "editor.fontSize": 16,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.glyphMargin": false,
-    "editor.hover.enabled": false,
-    "editor.lineNumbers": "relative",
-    "editor.matchBrackets": "never",
-    "editor.minimap.enabled": false,
-    "editor.rulers": [
-        120
-    ],
-    "editor.scrollBeyondLastLine": false,
-    "editor.guides.bracketPairs": true,
-    "editor.tabSize": 2,
-    "explorer.decorations.colors": false,
-    // "breadcrumbs.enabled": true,
-    "window.restoreFullscreen": true,
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.tabs.enabled": false,
-    "telemetry.telemetryLevel": "off",
-    // Language Preferences
-    "[javascript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.quickSuggestions": {
-            "other": "off",
-            "comments": "off",
-            "strings": "off"
-        }
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.quickSuggestions": {
-            "other": "off",
-            "comments": "off",
-            "strings": "off"
-        }
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.quickSuggestions": {
-            "other": "off",
-            "comments": "off",
-            "strings": "off"
-        }
-    },
-    "[json]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    },
-    // Plugins
-    "emulator.emulatorPathMac": "$ANDROID_HOME/emulator",
-    "vim.useSystemClipboard": true,
+  "workbench.colorTheme": "GitHub Light",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.statusBar.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.enableExperiments": false,
+  "workbench.settings.editor": "json",
+  "editor.dragAndDrop": false,
+  "editor.dropIntoEditor.enabled": false,
+  "editor.fontFamily": "Comic Mono",
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.hover.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.rulers": [120],
+  "editor.scrollBeyondLastLine": false,
+  "editor.guides.bracketPairs": true,
+  "editor.tabSize": 2,
+  "explorer.decorations.colors": false,
+  // "breadcrumbs.enabled": true,
+  "window.restoreFullscreen": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.tabs.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  // Language Preferences
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  // Plugins
+  "emulator.emulatorPathMac": "$ANDROID_HOME/emulator",
+  "vim.useSystemClipboard": true,
+  "workbench.activityBar.location": "hidden"
 }
