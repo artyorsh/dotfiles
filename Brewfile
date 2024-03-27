@@ -24,21 +24,7 @@ cask 'maintenance', args: { appdir: '/Applications' }
 cask 'google-chrome', args: { appdir: '/Applications' }
 cask 'iterm2', args: { appdir: '/Applications' }
 
-brew 'yarn'
-brew 'watchman'
-
-cask 'android-sdk'
-cask 'android-file-transfer'
-cask 'android-ndk'
-cask 'android-platform-tools'
-cask 'android-studio'
-brew 'gradle'
-cask 'zulu17'
-brew 'ruby'
-cask 'minisim'
-
 tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
 
-mas 'Xcode', id: 497799835
 mas 'Ghostery – Privacy Ad Blocker', id: 1436953057
