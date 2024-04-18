@@ -15,7 +15,7 @@ cask 'bitwarden'
 brew 'pinentry-mac'
 
 cask 'netnewswire'
-cask 'vlc'
+cask 'jellyfin-media-player'
 cask 'visual-studio-code'
 
 # Shared across machine users
