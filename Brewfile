@@ -27,4 +27,4 @@ cask 'iterm2', args: { appdir: '/Applications' }
 tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
 
-mas 'Ghostery – Privacy Ad Blocker', id: 1436953057
+mas 'AdGuard for Safari', id: 1440147259
