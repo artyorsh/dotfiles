@@ -11,10 +11,8 @@ brew 'gh'
 brew 'gpg'
 brew 'coreutils'
 brew 'gnu-sed'
-cask 'bitwarden'
 brew 'pinentry-mac'
 
-cask 'netnewswire'
 cask 'jellyfin-media-player'
 cask 'visual-studio-code'
 
@@ -28,3 +26,4 @@ tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
 
 mas 'AdGuard for Safari', id: 1440147259
+mas 'Bitwarden', id: 1352778147
