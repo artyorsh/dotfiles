@@ -2,7 +2,6 @@
   "workbench.colorTheme": "GitHub Light",
   "workbench.editor.showIcons": false,
   "workbench.editor.showTabs": "single",
-  "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
   "workbench.editor.limit.enabled": true,
   "workbench.enableExperiments": false,
@@ -61,5 +60,17 @@
   // Plugins
   "emulator.emulatorPathMac": "$ANDROID_HOME/emulator",
   "vim.useSystemClipboard": true,
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

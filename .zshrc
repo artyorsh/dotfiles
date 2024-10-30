@@ -11,6 +11,7 @@ export LANG=en_US.UTF-8
 
 export HISTCONTROL=ignoreboth
 export HISTSIZE=5000
+export HISTTIMEFORMAT="%F %T:"
 export HISTIGNORE="clear:bg:fg:cd:cd -:cd ..:exit:date:w:* --help:ls:l:ll:lll"
 
 export HOMEBREW_NO_AUTO_UPDATE=1
