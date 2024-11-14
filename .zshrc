@@ -15,6 +15,7 @@ export HISTTIMEFORMAT="%F %T:"
 export HISTIGNORE="clear:bg:fg:cd:cd -:cd ..:exit:date:w:* --help:ls:l:ll:lll"
 
 export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
 
 # https://github.com/jorgelbg/pinentry-touchid#installation
 alias pinentry="pinentry-mac"

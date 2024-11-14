@@ -15,12 +15,9 @@ brew 'pinentry-mac'
 
 cask 'jellyfin-media-player'
 cask 'visual-studio-code'
-
-# Shared across machine users
-
-cask 'maintenance', args: { appdir: '/Applications' }
-cask 'google-chrome', args: { appdir: '/Applications' }
-cask 'iterm2', args: { appdir: '/Applications' }
+cask 'maintenance'
+cask 'google-chrome'
+cask 'iterm2'
 
 tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
