@@ -1,9 +1,9 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
-	name = Artur
+	name = Artur Y
 	username = artyorsh
-        email = artyorsh@users.noreply.github.com
+        email = artur@artyorsh.me
 [alias]
 	conflicts = diff --name-only --diff-filter=U
 [credential]
