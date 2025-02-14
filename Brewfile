@@ -1,8 +1,6 @@
 cask_args appdir: '~/Applications'
 
 tap 'homebrew/bundle'
-tap 'homebrew/cask'
-tap 'homebrew/cask-versions'
 tap 'buo/cask-upgrade'
 tap 'homebrew/autoupdate'
 brew 'mas'
@@ -13,7 +11,6 @@ brew 'coreutils'
 brew 'gnu-sed'
 brew 'pinentry-mac'
 
-cask 'jellyfin-media-player'
 cask 'visual-studio-code'
 cask 'maintenance'
 cask 'google-chrome'
