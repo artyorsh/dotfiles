@@ -11,6 +11,7 @@ brew 'coreutils'
 brew 'gnu-sed'
 brew 'pinentry-mac'
 
+cask 'chatgpt'
 cask 'visual-studio-code'
 cask 'maintenance'
 cask 'google-chrome'
