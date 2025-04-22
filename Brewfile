@@ -12,7 +12,7 @@ brew 'gnu-sed'
 brew 'pinentry-mac'
 
 cask 'chatgpt'
-cask 'visual-studio-code'
+cask 'cursor'
 cask 'maintenance'
 cask 'google-chrome'
 cask 'iterm2'
