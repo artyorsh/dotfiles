@@ -1,4 +1,5 @@
 {
+  "update.mode": "none",
   "workbench.colorTheme": "GitHub Light",
   "workbench.editor.showIcons": false,
   "workbench.editor.showTabs": "single",
@@ -8,8 +9,7 @@
   "workbench.settings.editor": "json",
   "editor.dragAndDrop": false,
   "editor.dropIntoEditor.enabled": false,
-  "editor.fontFamily": "Comic Mono",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
@@ -57,8 +57,6 @@
   "[json]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  // Plugins
-  "emulator.emulatorPathMac": "$ANDROID_HOME/emulator",
   "vim.useSystemClipboard": true,
   "workbench.activityBar.location": "hidden",
   "extensions.ignoreRecommendations": true,
@@ -72,5 +70,9 @@
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "git.confirmSync": false,
+  "cursor.composer.collapsePaneInputBoxPills": true,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "cursor.chat.terminalShowHoverHint": false
 }
