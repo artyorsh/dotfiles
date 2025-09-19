@@ -9,6 +9,6 @@ cask 'android-studio'
 brew 'cocoapods'
 mas 'Xcode', id: 497799835
 
-cask 'cursor'
+cask 'zed'
 cask 'google-chrome'
 cask 'minisim'
