@@ -1,0 +1,14 @@
+# react-native
+#
+# https://reactnative.dev/docs/set-up-your-environment
+
+brew 'watchman'
+cask 'zulu@17'
+cask 'android-studio'
+
+brew 'cocoapods'
+mas 'Xcode', id: 497799835
+
+cask 'cursor'
+cask 'google-chrome'
+cask 'minisim'

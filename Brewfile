@@ -14,9 +14,6 @@ tap 'jorgelbg/tap'
 brew 'pinentry-touchid'
 
 cask 'chatgpt'
-cask 'cursor'
-cask 'google-chrome'
-cask 'iterm2'
 
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Bitwarden', id: 1352778147
