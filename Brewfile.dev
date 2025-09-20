@@ -2,7 +2,10 @@
 #
 # https://reactnative.dev/docs/set-up-your-environment
 
+tap 'oven-sh/bun'
+brew 'bun'
 brew 'watchman'
+
 cask 'zulu@17'
 cask 'android-studio'
 
